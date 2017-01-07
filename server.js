@@ -22,7 +22,7 @@ var publicPath = path.join(__dirname,'public')
 app.use('/public',express.static(publicPath));
 
 app.get('/login',function(req,res){
-	res.send('ha ni ma')
+	res.send('测试')
 })
 
 
